@@ -67,7 +67,6 @@ namespace TestingAbstractClasses
         [Fact]
         public void Should_return_correct_message()
         {
-
             var fake = new FakeConcreteInstance();
             var result = fake.MyMethodOnAbstractClass("fish");
             Assert.Equal("I like fish in an abstract sense.", result);
